@@ -17,7 +17,7 @@ def find_the_cheese(snacks)# code an argument here
 # else
 #   nil
   snacks.any? do |cheese|
-    if cheese_types.include?(cheese) != true
+    if cheese_types.include?(cheese) == true
       return cheese
     else
       nil
