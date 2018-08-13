@@ -15,7 +15,7 @@ def find_the_cheese(snacks)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   snacks.include?(cheese_types)
     # if snack == cheese_types[snack]
-    # 
+    #
     # else
     #   nil
     # end
