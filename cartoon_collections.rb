@@ -23,6 +23,8 @@ def find_the_cheese(snacks)# code an argument here
       nil
     end
 end
+end
+
   # end
     # if snack == cheese_types[snack]
     #
