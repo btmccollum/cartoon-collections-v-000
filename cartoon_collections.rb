@@ -13,10 +13,7 @@ end
 def find_the_cheese(snacks)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if snacks.include?(cheese_types)
-    return snacks[cheese_types]
-  else
-    nil
+  snacks.all? {|snack| cheese_types.include?(snack)}
   end
     # if snack == cheese_types[snack]
     #
